@@ -56,7 +56,6 @@ let myVideoStream;
 navigator.mediaDevices
   .getUserMedia({
     audio: true,
-    video: true,
   })
   .then((stream) => {
     myVideoStream = stream;
