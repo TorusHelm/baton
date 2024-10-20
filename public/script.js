@@ -53,6 +53,8 @@ var peer = new Peer({
 });
 
 let myVideoStream;
+console.log('navigator: ', navigator);
+console.log('navigator.mediaDevices: ', navigator.mediaDevices);
 navigator.mediaDevices
   .getUserMedia({
     audio: true,
